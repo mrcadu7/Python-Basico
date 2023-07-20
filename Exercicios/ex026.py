@@ -1,0 +1,8 @@
+frase = str(input('Digite uma frase que goste:')).strip()
+#frasea = int(frase.count('a')+ frase.count('A'))
+#frasep = str(frase.find('a'))
+#frasef = str(frase.)
+print(f'Sua frase é: {frase}')
+print(f'Sua frase possui o total de {frase.lower().count("a")} letras A')
+print(f'A letra A aparece pela primeira vez na posição {frase.lower().find("a")+1}')
+print(f'A letra A aparece pela ultima vez na posição {frase.lower().rfind("a")+1}')
